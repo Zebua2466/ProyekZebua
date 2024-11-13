@@ -12,3 +12,12 @@ h1 {
 p {
     font-size: 18px;
 }
+.title {
+    text-align: center; /* Menyusun judul di tengah halaman */
+    font-size: 36px; /* Mengubah ukuran font */
+    color: darkblue; /* Memberikan warna biru tua */
+    font-family: Arial, sans-serif; /* Menentukan jenis font */
+    background-color: lightgray; /* Memberikan warna latar belakang */
+    padding: 20px; /* Memberikan jarak dalam judul */
+    border-radius: 10px; /* Memberikan sudut melengkung */
+}

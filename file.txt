@@ -1,0 +1,13 @@
+window.onload = function() {
+    fetch('http://localhost:3000/pegawai')
+    .then(response => response.json())
+    .then(data => {
+        const pegawaiList = document.getElementById('pegawai-list');
+        data.forEach(pegawai => {
+            let listItem = document.createElement('li');
+            listItem.textContent = `${pegawai.nama} - ${pegawai.jabatan}`;
+            pegawaiList.appendChild(listItem);
+        });
+    })
+    .catch(error => console.error('Error:', error));
+};

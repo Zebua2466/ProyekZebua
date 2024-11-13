@@ -1,0 +1,14 @@
+/* Menetapkan warna latar belakang halaman */
+body {
+    background-color: lightblue;
+}
+
+/* Menetapkan warna teks untuk <h1> */
+h1 {
+    color: darkblue;
+}
+
+/* Menetapkan ukuran font untuk <p> */
+p {
+    font-size: 18px;
+}
